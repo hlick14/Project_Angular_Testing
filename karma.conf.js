@@ -14,20 +14,24 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
- files: [
-    './node_modules/angular/angular.js',
-    './node_modules/angular-ui-router/release/angular-ui-router.js',
-    './node_modules/angular-mocks/angular-mocks.js',
-     './app/testing/common.js', 
-    './app/services/users/users.js',
-    './app/services/pokemon/pokemon.js',
-    './app/components/users/users.js',
-    './app/app.js',
-    './app/services/users/users.spec.js',
-    './app/services/pokemon/pokemon.spec.js',
-    './app/components/users/users.spec.js'
-  ],
-
+     files: [
+       './node_modules/angular/angular.js',
+       './node_modules/angular-ui-router/release/angular-ui-router.js',
+       './node_modules/angular-mocks/angular-mocks.js',
+       './app/testing/common.js',
+       './app/services/users/users.js',
+       './app/services/pokemon/pokemon.js',
+       './app/components/users/users.js',
+       './app/components/profile/profile.js',
+       './app/components/missingno/missingno.js',
+       './app/filters/capitalize/capitalize.js',
+       './app/app.js',
+       './app/services/users/users.spec.js',
+       './app/services/pokemon/pokemon.spec.js',
+       './app/components/users/users.spec.js',
+       './app/components/profile/profile.spec.js',
+       './app/components/missingno/missingno.spec.js'
+        ],
     // list of files to exclude
     exclude: [
     ],
